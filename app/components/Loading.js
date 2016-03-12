@@ -39,7 +39,7 @@ var Loading = React.createClass({
         }
     },
 
-  componentidMount: function () {
+  componentDidMount: function () {
     var stopper = this.originalText + '...'
     this.interval = setInterval(function () {
         if (this.state.text === stopper) {
